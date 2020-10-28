@@ -12,36 +12,37 @@ source ${JUNOTOP_setup_dir}/setup.sh
 ##do not use nohup below because we need it to pause the jobs
 ./main_get_filter_averagewave.sh $DataPathToGetAverageWave
 
-#
-##kill the previous process(prepare for calibration)
-#kill $(ps aux | grep check_script_rl.sh | tr -s ' '| cut -d ' ' -f 2)
-#kill $(ps aux | grep sub_step.sh | tr -s ' '| cut -d ' ' -f 2)
-#kill $(ps aux | grep check_Gain_Timeoffset_File.sh | tr -s ' '| cut -d ' ' -f 2)
-#
-##########Time offset Calib############
-#
-#if [ ! -d timeoffset_calib ];then
-#    mkdir timeoffset_calib
-#fi
-#sed -e "s#JUNOTOP#${JUNOTOP_dir%/*}#g" ./TimeOffset_sample.sh > ./timeoffset_calib/TimeOffset.sh
-#
-#cd timeoffset_calib
-#chmod 755 TimeOffset.sh
-#cp ../channel_roofit_sample.C .
-#cp ../timeoffset_run.py ./run.py
-#. ../gen_elec_list.sh $Timeoffset_calib_source_path 
-#sed -e "s#DIR_ROOT#`pwd`/#g" channel_roofit_sample.C > channel_roofit.C
-#hep_sub ./TimeOffset.sh 
-#cd $tool_dir
-#
-############################################
-#
-#n_check_filter
-##########Gain Calib#######################
-#./main_charge_calib.sh
-############################################
-#
-##########Mean Gain Calib###################
-#nohup ./check_Gain_Timeoffset_File.sh $my_offline_dir $JUNOTOP_dir &
-##############################################
-#
+
+#kill the previous process(prepare for calibration)
+kill $(ps aux | grep check_script_rl.sh | tr -s ' '| cut -d ' ' -f 2)
+kill $(ps aux | grep sub_step.sh | tr -s ' '| cut -d ' ' -f 2)
+kill $(ps aux | grep check_Gain_Timeoffset_File.sh | tr -s ' '| cut -d ' ' -f 2)
+
+#########Time offset Calib############
+
+if [ ! -d timeoffset_calib ];then
+    mkdir timeoffset_calib
+fi
+sed -e "s#JUNOTOP#${JUNOTOP_dir%/*}#g" ./TimeOffset_sample.sh > ./timeoffset_calib/TimeOffset.sh
+
+cd timeoffset_calib
+chmod 755 TimeOffset.sh
+cp ../channel_roofit_sample.C .
+cp ../timeoffset_run.py ./run.py
+cp ../draw_timeoffset_result.py .
+. ../gen_elec_list.sh $Timeoffset_calib_source_path 
+sed -e "s#DIR_ROOT#`pwd`/#g" channel_roofit_sample.C > channel_roofit.C
+hep_sub ./TimeOffset.sh 
+cd $tool_dir
+
+###########################################
+
+n_check_filter
+#########Gain Calib#######################
+./main_charge_calib.sh
+###########################################
+
+#########Mean Gain Calib###################
+nohup ./check_Gain_Timeoffset_File.sh $my_offline_dir $JUNOTOP_dir &
+#############################################
+

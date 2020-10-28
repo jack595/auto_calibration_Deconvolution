@@ -1,0 +1,4 @@
+*.root
+./get_averageWaveform/run-step1/*
+./get_averageWaveform/run-step2/*
+

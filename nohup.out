@@ -1,0 +1,140 @@
+Setup Official Offline Software
+Setup Official Offline Software
+~/Deconvolution_Sim/auto_calib_decon_toolkit/get_averageWaveform ~/Deconvolution_Sim/auto_calib_decon_toolkit
+~/Deconvolution_Sim/auto_calib_decon_toolkit
+~/Deconvolution_Sim/auto_calib_decon_toolkit/get_filter ~/Deconvolution_Sim/auto_calib_decon_toolkit
+OBJ: TStyle	dybStyle	Daya Bay Style : 0 at: 0x3348760
+
+Processing get_raw2D.C...
+Total Events: 498
+The Entry is 498
+Info in <TCanvas::Print>: file rawh.png has been created
+Info in <TCanvas::Print>: file rawn.png has been created
+OBJ: TStyle	dybStyle	Daya Bay Style : 0 at: 0x29b7730
+
+Processing getFilterSetting4_m.C...
+~/Deconvolution_Sim/auto_calib_decon_toolkit
+Tue Oct 27 15:16:51 CST 2020--/afs/ihep.ac.cn/users/l/luoxj/Deconvolution_Sim/auto_calib_decon_toolkit--checking filter and SPE
+run_step1.sh finished!!
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root
+OBJ: TStyle	dybStyle	Daya Bay Style : 0 at: 0x3c80f10
+
+Processing script1.C...
+#0  0x00007f1bda98246c in waitpid () from /lib64/libc.so.6
+#1  0x00007f1bda8fff62 in do_system () from /lib64/libc.so.6
+#2  0x00007f1bdba2df73 in TUnixSystem::StackTrace() () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v2r0-branch/ExternalLibs/ROOT/6.20.02/lib/libCore.so
+#3  0x00007f1bd673bb38 in cling::MultiplexInterpreterCallbacks::PrintStackTrace() () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v2r0-branch/ExternalLibs/ROOT/6.20.02/lib/libCling.so
+#4  0x00007f1bd673b4ee in cling_runtime_internal_throwIfInvalidPointer () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v2r0-branch/ExternalLibs/ROOT/6.20.02/lib/libCling.so
+#5  0x00007f1bdc288294 in ?? ()
+#6  0x0000000000000000 in ?? ()
+Error in <HandleInterpreterException>: Trying to dereference null pointer or trying to call routine taking non-null arguments.
+Execution of your code was aborted.
+In file included from input_line_139:1:
+/junofs/users/luoxj/Deconvolution_Sim/auto_calib_decon_toolkit/get_averageWaveform/script1.C:10:5: warning: null passed to a callee that requires a non-null argument [-Wnonnull]
+    m_Integral[i]->Rebin(5);
+    ^~~~~~~~~~~~~
+script1.C finished!!
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70001
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70002
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70003
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70004
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70005
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70006
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70007
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70008
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70009
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70010
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70011
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70012
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70013
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70014
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70015
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70016
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70017
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70018
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70019
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70020
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70021
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70022
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70023
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70024
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70025
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70026
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70027
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70028
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70029
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70030
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70031
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70032
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70033
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70034
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70035
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70036
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70037
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70038
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70039
+/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root, 70040
+1 job(s) submitted to cluster 103915002.
+1 job(s) submitted to cluster 103915003.
+1 job(s) submitted to cluster 103915005.
+1 job(s) submitted to cluster 103915008.
+1 job(s) submitted to cluster 103915009.
+1 job(s) submitted to cluster 103915010.
+1 job(s) submitted to cluster 103915011.
+1 job(s) submitted to cluster 103915012.
+1 job(s) submitted to cluster 103915013.
+1 job(s) submitted to cluster 103915014.
+1 job(s) submitted to cluster 103915015.
+1 job(s) submitted to cluster 103915016.
+1 job(s) submitted to cluster 103915017.
+1 job(s) submitted to cluster 103915018.
+1 job(s) submitted to cluster 103915019.
+1 job(s) submitted to cluster 103915020.
+1 job(s) submitted to cluster 103915022.
+1 job(s) submitted to cluster 103915023.
+1 job(s) submitted to cluster 103915024.
+1 job(s) submitted to cluster 103915025.
+1 job(s) submitted to cluster 103915026.
+1 job(s) submitted to cluster 103915027.
+1 job(s) submitted to cluster 103915028.
+1 job(s) submitted to cluster 103915029.
+1 job(s) submitted to cluster 103915030.
+1 job(s) submitted to cluster 103915032.
+1 job(s) submitted to cluster 103915033.
+1 job(s) submitted to cluster 103915034.
+1 job(s) submitted to cluster 103915035.
+1 job(s) submitted to cluster 103915037.
+1 job(s) submitted to cluster 103915038.
+1 job(s) submitted to cluster 103915039.
+1 job(s) submitted to cluster 103915040.
+1 job(s) submitted to cluster 103915041.
+1 job(s) submitted to cluster 103915043.
+1 job(s) submitted to cluster 103915044.
+1 job(s) submitted to cluster 103915045.
+1 job(s) submitted to cluster 103915046.
+1 job(s) submitted to cluster 103915047.
+1 job(s) submitted to cluster 103915048.
+hadd Target file: SPE.bck.root
+hadd compression setting for all output: 1
+Error in <TFile::TFile>: file SPE.bck.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does SPE.bck.root exist?).
+Pass "-f" argument to force re-creation of output file.
+merging files finished!!
+/afs/ihep.ac.cn/users/l/luoxj/Deconvolution_Sim/auto_calib_decon_toolkit/get_averageWaveform
+OBJ: TStyle	dybStyle	Daya Bay Style : 0 at: 0x29caeb0
+
+Processing script2.C...
+#0  0x00007f5f6000046c in waitpid () from /lib64/libc.so.6
+#1  0x00007f5f5ff7df62 in do_system () from /lib64/libc.so.6
+#2  0x00007f5f610abf73 in TUnixSystem::StackTrace() () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v2r0-branch/ExternalLibs/ROOT/6.20.02/lib/libCore.so
+#3  0x00007f5f5bdb9b38 in cling::MultiplexInterpreterCallbacks::PrintStackTrace() () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v2r0-branch/ExternalLibs/ROOT/6.20.02/lib/libCling.so
+#4  0x00007f5f5bdb94ee in cling_runtime_internal_throwIfInvalidPointer () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v2r0-branch/ExternalLibs/ROOT/6.20.02/lib/libCling.so
+#5  0x00007f5f6190594e in ?? ()
+#6  0x0000000000000000 in ?? ()
+Error in <HandleInterpreterException>: Trying to dereference null pointer or trying to call routine taking non-null arguments.
+Execution of your code was aborted.
+In file included from input_line_139:1:
+/junofs/users/luoxj/Deconvolution_Sim/auto_calib_decon_toolkit/get_averageWaveform/script2.C:28:5: warning: null passed to a callee that requires a non-null argument [-Wnonnull]
+    m_meanWaveform[i]->Scale(1. / m_Counter->GetBinContent(i + 1));
+    ^~~~~~~~~~~~~~~~~

@@ -1,0 +1,252 @@
+OBJ: TStyle	dybStyle	Daya Bay Style : 0 at: 0x2f22770
+
+Processing get_raw2D.C...
+Warning in <TClass::Init>: no dictionary for class JM::TrackElecTruthEvent is available
+Warning in <TClass::Init>: no dictionary for class JM::TrackElecTruth is available
+Warning in <TStreamerInfo::BuildCheck>: 
+   The StreamerInfo of class JM::ElecTruthHeader read from file /afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70001.root
+   has the same version (=1) as the active class but a different checksum.
+   You should update the version to ClassDef(JM::ElecTruthHeader,2).
+   Do not try to write objects with the current class definition,
+   the files will not be readable.
+
+Warning in <TStreamerInfo::CompareContent>: The following data member of
+the in-memory layout version 1 of class 'JM::ElecTruthHeader' is missing from 
+the on-file layout version 1:
+   JM::SmartRef m_trackTruth; //
+Total Events: 496
+The Entry is 496
+Info in <TCanvas::Print>: png file rawh.png has been created
+Info in <TCanvas::Print>: png file rawn.png has been created
+OBJ: TStyle	dybStyle	Daya Bay Style : 0 at: 0x3cd75e0
+
+Processing get_raw2D.C...
+Warning in <TClass::Init>: no dictionary for class JM::TrackElecTruthEvent is available
+Warning in <TClass::Init>: no dictionary for class JM::TrackElecTruth is available
+Warning in <TStreamerInfo::BuildCheck>: 
+   The StreamerInfo of class JM::ElecTruthHeader read from file /afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70001.root
+   has the same version (=1) as the active class but a different checksum.
+   You should update the version to ClassDef(JM::ElecTruthHeader,2).
+   Do not try to write objects with the current class definition,
+   the files will not be readable.
+
+Warning in <TStreamerInfo::CompareContent>: The following data member of
+the in-memory layout version 1 of class 'JM::ElecTruthHeader' is missing from 
+the on-file layout version 1:
+   JM::SmartRef m_trackTruth; //
+Total Events: 496
+The Entry is 496
+Info in <TCanvas::Print>: png file rawh.png has been created
+Info in <TCanvas::Print>: png file rawn.png has been created
+**************************************************
+***          Welcome to SNiPER Python          ***
+**************************************************
+Running @ lxslc713.ihep.ac.cn on Sun Oct 11 22:37:56 2020
+[Task]task
+   +--[Var]EvtMax     = -1
+   +--[Var]LogLevel   = 3
+   +--[DataMemSvc]DataMemSvc
+   |     +--[Var]LogLevel   = 3
+   +--[MergeRootFilesAlg]mfalg
+   |     +--[Var]InputFiles = [/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70001.root, /afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70002.root, /afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70003.root, /afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70004.root, /afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70005.root, /afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70006.root, /afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70007.root, /afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70008.root, /afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70009.root]
+   |     +--[Var]LogLevel   = 3
+   |     +--[Var]OutputFile = elecsim-70001-9.root
+Warning in <TClass::Init>: no dictionary for class JM::TrackElecTruthEvent is available
+Warning in <TClass::Init>: no dictionary for class JM::TrackElecTruth is available
+Warning in <TStreamerInfo::BuildCheck>: 
+   The StreamerInfo of class JM::ElecTruthHeader read from file /afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70001.root
+   has the same version (=1) as the active class but a different checksum.
+   You should update the version to ClassDef(JM::ElecTruthHeader,2).
+   Do not try to write objects with the current class definition,
+   the files will not be readable.
+
+Warning in <TStreamerInfo::CompareContent>: The following data member of
+the in-memory layout version 1 of class 'JM::ElecTruthHeader' is missing from 
+the on-file layout version 1:
+   JM::SmartRef m_trackTruth; //
+dataPathMap: /Event/Elec/ElecEvent -> JM::ElecEvent
+directory: Event/Elec
+create directory: Event/Elec
+dataPathMap: /Event/Elec/ElecHeader -> JM::ElecHeader
+directory: Event/Elec
+dataPathMap: /Event/Elec/SpmtElecEvent -> JM::SpmtElecEvent
+directory: Event/Elec
+dataPathMap: /Event/Sim/Truth/ElecTruthHeader -> JM::ElecTruthHeader
+directory: Event/Sim/Truth
+create directory: Event/Sim/Truth
+Fatal in <TBranchElement::InitializeOffsets>: Could not find the real data member 'm_trackTruth' when constructing the branch 'ElecTruthHeader' [Likely an internal error, please report to the developers].
+aborting
+#0  0x00007f8dd744946c in waitpid () from /lib64/libc.so.6
+#1  0x00007f8dd73c6f62 in do_system () from /lib64/libc.so.6
+#2  0x00007f8dcdfb7f73 in TUnixSystem::StackTrace() () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v1r0-Pre2/ExternalLibs/ROOT/6.20.02/lib/libCore.so
+#3  0x00007f8dcde98611 in DefaultErrorHandler(int, bool, char const*, char const*) () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v1r0-Pre2/ExternalLibs/ROOT/6.20.02/lib/libCore.so
+#4  0x00007f8dcde980fa in ErrorHandler () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v1r0-Pre2/ExternalLibs/ROOT/6.20.02/lib/libCore.so
+#5  0x00007f8dcdeab7f4 in TObject::Fatal(char const*, char const*, ...) const () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v1r0-Pre2/ExternalLibs/ROOT/6.20.02/lib/libCore.so
+#6  0x00007f8dcd456050 in TBranchElement::InitializeOffsets() () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v1r0-Pre2/ExternalLibs/ROOT/6.20.02/lib/libTree.so
+#7  0x00007f8dcd459897 in TBranchElement::SetAddress(void*) () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v1r0-Pre2/ExternalLibs/ROOT/6.20.02/lib/libTree.so
+#8  0x00007f8dcd4b9db4 in TTree::BronchExec(char const*, char const*, void*, bool, int, int) () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v1r0-Pre2/ExternalLibs/ROOT/6.20.02/lib/libTree.so
+#9  0x00007f8dcd4a6023 in TTree::Branch(char const*, char const*, void*, int, int) () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v1r0-Pre2/ExternalLibs/ROOT/6.20.02/lib/libTree.so
+#10 0x00007f8dce91941b in TBranch* TTree::Branch<void>(char const*, char const*, void**, int, int) () from /afs/ihep.ac.cn/users/l/luoxj/junofs_500G/juno-dev/offline/InstallArea/amd64_linux26/lib/libRootIOTools.so
+#11 0x00007f8dce917f78 in TreeMerger::TreeMerger(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) () from /afs/ihep.ac.cn/users/l/luoxj/junofs_500G/juno-dev/offline/InstallArea/amd64_linux26/lib/libRootIOTools.so
+#12 0x00007f8dce9187ac in TreeLooper::TreeLooper(std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > const&, TFile*) () from /afs/ihep.ac.cn/users/l/luoxj/junofs_500G/juno-dev/offline/InstallArea/amd64_linux26/lib/libRootIOTools.so
+#13 0x00007f8dce910e1e in MergeRootFilesAlg::initialize() () from /afs/ihep.ac.cn/users/l/luoxj/junofs_500G/juno-dev/offline/InstallArea/amd64_linux26/lib/libRootIOTools.so
+#14 0x00007f8dcf322a48 in DleSupervisor::initialize() () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v1r0-Pre2/sniper/InstallArea/amd64_linux26/lib/libSniperKernel.so
+#15 0x00007f8dcf32d808 in Task::initialize() () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v1r0-Pre2/sniper/InstallArea/amd64_linux26/lib/libSniperKernel.so
+#16 0x00007f8dcf333bd4 in TaskWatchDog::initialize() () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v1r0-Pre2/sniper/InstallArea/amd64_linux26/lib/libSniperKernel.so
+#17 0x00007f8dcf32d715 in Task::run() () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v1r0-Pre2/sniper/InstallArea/amd64_linux26/lib/libSniperKernel.so
+#18 0x00007f8dcf8b4a40 in TaskWrap::default_run() () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v1r0-Pre2/sniper/InstallArea/amd64_linux26/lib/libSniperPython.so
+#19 0x00007f8dcf8baf58 in _object* boost::python::detail::invoke<boost::python::to_python_value<bool const&>, bool (TaskWrap::*)(), boost::python::arg_from_python<TaskWrap&> >(boost::python::detail::invoke_tag_<false, true>, boost::python::to_python_value<bool const&> const&, bool (TaskWrap::*&)(), boost::python::arg_from_python<TaskWrap&>&) () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v1r0-Pre2/sniper/InstallArea/amd64_linux26/lib/libSniperPython.so
+#20 0x00007f8dcf8ba0ab in boost::python::detail::caller_arity<1u>::impl<bool (TaskWrap::*)(), boost::python::default_call_policies, boost::mpl::vector2<bool, TaskWrap&> >::operator()(_object*, _object*) () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v1r0-Pre2/sniper/InstallArea/amd64_linux26/lib/libSniperPython.so
+#21 0x00007f8dcf8b9bd5 in boost::python::objects::caller_py_function_impl<boost::python::detail::caller<bool (TaskWrap::*)(), boost::python::default_call_policies, boost::mpl::vector2<bool, TaskWrap&> > >::operator()(_object*, _object*) () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v1r0-Pre2/sniper/InstallArea/amd64_linux26/lib/libSniperPython.so
+#22 0x00007f8dcf56ffe4 in boost::python::objects::function::call(_object*, _object*) const () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v1r0-Pre2/ExternalLibs/Boost/1.72.0/lib/libboost_python27.so.1.72.0
+#23 0x00007f8dcf5701e8 in boost::detail::function::void_function_ref_invoker0<boost::python::objects::(anonymous namespace)::bind_return, void>::invoke(boost::detail::function::function_buffer&) () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v1r0-Pre2/ExternalLibs/Boost/1.72.0/lib/libboost_python27.so.1.72.0
+#24 0x00007f8dcf5767c3 in boost::python::handle_exception_impl(boost::function0<void>) () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v1r0-Pre2/ExternalLibs/Boost/1.72.0/lib/libboost_python27.so.1.72.0
+#25 0x00007f8dcf56e9d6 in function_call () from /cvmfs/juno.ihep.ac.cn/centos7_amd64_gcc830/Pre-Release/J20v1r0-Pre2/ExternalLibs/Boost/1.72.0/lib/libboost_python27.so.1.72.0
+#26 0x00007f8dd80c4883 in PyObject_Call (func=func
+entry=0x8f3560, arg=arg
+entry=0x7f8dd09fa3d0, kw=kw
+entry=0x0) at Objects/abstract.c:2544
+#27 0x00007f8dd8170027 in do_call (nk=<optimized out>, na=<optimized out>, pp_stack=0x7ffcfd05e3b8, func=0x8f3560) at Python/ceval.c:4593
+#28 call_function (oparg=<optimized out>, pp_stack=0x7ffcfd05e3b8) at Python/ceval.c:4398
+#29 PyEval_EvalFrameEx (f=f
+entry=0x7f8dd72a93f0, throwflag=throwflag
+entry=0) at Python/ceval.c:3013
+#30 0x00007f8dd8174d72 in PyEval_EvalCodeEx (co=co
+entry=0x7f8dd72b2ab0, globals=globals
+entry=0x7f8dd85ed170, locals=locals
+entry=0x7f8dd85ed170, args=args
+entry=0x0, argcount=argcount
+entry=0, kws=kws
+entry=0x0, kwcount=0, defs=0x0, defcount=0, closure=0x0) at Python/ceval.c:3608
+#31 0x00007f8dd8175009 in PyEval_EvalCode (co=co
+entry=0x7f8dd72b2ab0, globals=globals
+entry=0x7f8dd85ed170, locals=locals
+entry=0x7f8dd85ed170) at Python/ceval.c:669
+#32 0x00007f8dd8199a78 in run_mod (arena=0x7ad8b0, flags=0x7ffcfd05e5fc, locals=0x7f8dd85ed170, globals=0x7f8dd85ed170, filename=0x7f8dd72b2ab0 "\002", mod=0x8143c0) at Python/pythonrun.c:1385
+#33 PyRun_FileExFlags (fp=fp
+entry=0x7bf6e0, filename=filename
+entry=0x7ffcfd05f76e "/afs/ihep.ac.cn/users/l/luoxj/junofs_500G/juno-dev/offline/RootIO/RootIOTools/share/merge.py", start=start
+entry=257, globals=globals
+entry=0x7f8dd85ed170, locals=locals
+entry=0x7f8dd85ed170, closeit=closeit
+entry=1, flags=0x7ffcfd05e5fc) at Python/pythonrun.c:1371
+#34 0x00007f8dd819a9f3 in PyRun_SimpleFileExFlags (fp=fp
+entry=0x7bf6e0, filename=0x7ffcfd05f76e "/afs/ihep.ac.cn/users/l/luoxj/junofs_500G/juno-dev/offline/RootIO/RootIOTools/share/merge.py", closeit=closeit
+entry=1, flags=flags
+entry=0x7ffcfd05e5fc) at Python/pythonrun.c:957
+#35 0x00007f8dd819b063 in PyRun_AnyFileExFlags (fp=fp
+entry=0x7bf6e0, filename=<optimized out>, closeit=closeit
+entry=1, flags=flags
+entry=0x7ffcfd05e5fc) at Python/pythonrun.c:761
+#36 0x00007f8dd81ae64a in Py_Main (argc=<optimized out>, argv=<optimized out>) at Modules/main.c:641
+#37 0x00007f8dd73a6555 in __libc_start_main () from /lib64/libc.so.6
+#38 0x000000000040064e in _start ()
+./merge_getraw2D.sh: line 1:  5595 Aborted                 (core dumped) python $ROOTIOTOOLSROOT/share/merge.py elecsim-70001-9.root /afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-7000[1-9].root
+OBJ: TStyle	dybStyle	Daya Bay Style : 0 at: 0x341aee0
+
+Processing get_raw2D.C...
+Warning in <TClass::Init>: no dictionary for class JM::TrackElecTruthEvent is available
+Warning in <TClass::Init>: no dictionary for class JM::TrackElecTruth is available
+Warning in <TStreamerInfo::BuildCheck>: 
+   The StreamerInfo of class JM::ElecTruthHeader read from file /afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70001.root
+   has the same version (=1) as the active class but a different checksum.
+   You should update the version to ClassDef(JM::ElecTruthHeader,2).
+   Do not try to write objects with the current class definition,
+   the files will not be readable.
+
+Warning in <TStreamerInfo::CompareContent>: The following data member of
+the in-memory layout version 1 of class 'JM::ElecTruthHeader' is missing from 
+the on-file layout version 1:
+   JM::SmartRef m_trackTruth; //
+Total Events: 496
+The Entry is 496
+Info in <TCanvas::Print>: file rawh.png has been created
+Info in <TCanvas::Print>: file rawn.png has been created
+   ------------------------------------------------------------------
+  | Welcome to ROOT 6.20/02                        https://root.cern |
+  | (c) 1995-2020, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxx8664gcc on Mar 15 2020, 15:25:34                 |
+  | From tags/v6-20-02@v6-20-02                                      |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q'       |
+   ------------------------------------------------------------------
+
+OBJ: TStyle	dybStyle	Daya Bay Style : 0 at: 0x2921380
+
+Processing get_raw2D.C...
+Warning in <TClass::Init>: no dictionary for class JM::TrackElecTruthEvent is available
+Warning in <TClass::Init>: no dictionary for class JM::TrackElecTruth is available
+Warning in <TStreamerInfo::BuildCheck>: 
+   The StreamerInfo of class JM::ElecTruthHeader read from file /afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70001.root
+   has the same version (=1) as the active class but a different checksum.
+   You should update the version to ClassDef(JM::ElecTruthHeader,2).
+   Do not try to write objects with the current class definition,
+   the files will not be readable.
+
+Warning in <TStreamerInfo::CompareContent>: The following data member of
+the in-memory layout version 1 of class 'JM::ElecTruthHeader' is missing from 
+the on-file layout version 1:
+   JM::SmartRef m_trackTruth; //
+Total Events: 496
+The Entry is 496
+Info in <TCanvas::Print>: png file rawh.png has been created
+Info in <TCanvas::Print>: png file rawn.png has been created
+**************************************************
+***          Welcome to SNiPER Python          ***
+**************************************************
+Running @ lxslc706.ihep.ac.cn on Fri Oct 23 17:06:46 2020
+[Task]task
+   +--[Var]EvtMax     = -1
+   +--[Var]LogLevel   = 3
+   +--[DataMemSvc]DataMemSvc
+   |     +--[Var]LogLevel   = 3
+   +--[MergeRootFilesAlg]mfalg
+   |     +--[Var]InputFiles = [/afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70001.root, /afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70002.root, /afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70003.root, /afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70004.root, /afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70005.root, /afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70006.root, /afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70007.root, /afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70008.root, /afs/ihep.ac.cn/users/v/valprod0/J20v2r0-Pre0/ACU+CLS/Ge68/Ge68_0_0_0/elecsim/root/elecsim-70009.root]
+   |     +--[Var]LogLevel   = 3
+   |     +--[Var]OutputFile = elecsim-70001-9.root
+dataPathMap: /Event/Elec/ElecEvent -> JM::ElecEvent
+directory: Event/Elec
+create directory: Event/Elec
+dataPathMap: /Event/Elec/ElecHeader -> JM::ElecHeader
+directory: Event/Elec
+dataPathMap: /Event/Elec/SpmtElecEvent -> JM::SpmtElecEvent
+directory: Event/Elec
+dataPathMap: /Event/Sim/Truth/ElecTruthHeader -> JM::ElecTruthHeader
+directory: Event/Sim/Truth
+create directory: Event/Sim/Truth
+dataPathMap: /Event/Sim/Truth/LpmtElecTruthEvent -> JM::LpmtElecTruthEvent
+directory: Event/Sim/Truth
+dataPathMap: /Event/Sim/Truth/SpmtElecTruthEvent -> JM::SpmtElecTruthEvent
+directory: Event/Sim/Truth
+dataPathMap: /Event/Sim/Truth/TrackElecTruthEvent -> JM::TrackElecTruthEvent
+directory: Event/Sim/Truth
+task:mfalg.initialize           INFO: Successfully initialized!
+task.initialize                 INFO: initialized
+task.execute                    INFO: stop run promtly.
+task:mfalg.finalize             INFO: path/name: Meta / FileMetaData
+task:mfalg.finalize             INFO: path/name: Meta / UniqueIDTable
+task.finalize                   INFO: events processed 4497
+
+**************************************************
+Terminating @ lxslc706.ihep.ac.cn on Fri Oct 23 17:25:19 2020
+SNiPER::Context Running Mode = { BASIC }
+SNiPER::Context Terminated Successfully
+
+OBJ: TStyle	dybStyle	Daya Bay Style : 0 at: 0x3eb00f0
+
+Processing get_raw2D.C...
+Total Events: 498
+The Entry is 498
+Info in <TCanvas::Print>: file rawh.png has been created
+Info in <TCanvas::Print>: file rawn.png has been created
+OBJ: TStyle	dybStyle	Daya Bay Style : 0 at: 0x2e55000
+
+Processing get_raw2D.C...
+Total Events: 4488
+The Entry is 4488
+
+ *** Break *** keyboard interrupt
+OBJ: TStyle	dybStyle	Daya Bay Style : 0 at: 0x25b7f40
+
+Processing get_raw2D.C...
+Total Events: 4488
+The Entry is 4488

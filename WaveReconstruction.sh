@@ -68,6 +68,7 @@ do
         #read -s -n1 -p "按任意键继续 ... "
     fi
     source gen_step3_4.sh
+    rm ./step4/calibCorr-log-*.txt
     source sub.sh
 
     cd $original_path

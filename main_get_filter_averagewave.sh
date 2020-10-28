@@ -16,7 +16,7 @@ chmod 755 main_get_average.sh
 nohup ./main_get_average.sh &
 popd
 pushd get_filter
-root -l -q get_raw2D.C && root -l -q getFilterSetting4_m.C && echo "filter done" >> path_filter_and_averagerWaves.sh
+root -l -q get_raw2D.C && root -l -q getFilterSetting4_m.C && echo "filter done" >> ../SPE_filter_status.txt
 popd
 
 for i in `seq 1 1000`
