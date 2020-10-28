@@ -42,7 +42,7 @@ void channel_roofit(){
     double sigma1 = 5;
     double sigma2 = 8;
 
-    std::string dir = "DIR_ROOT";
+    std::string dir = "./";
     std::string file = "time_corr.root";
 
     TH1D* onechannel;
