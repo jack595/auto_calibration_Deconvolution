@@ -27,10 +27,10 @@ source ${JUNOTOP_setup_dir}/setup.sh
 #
 #cd timeoffset_calib
 #chmod 755 TimeOffset.sh
-#cp ../channel_roofit_sample.C .
+#cp ../channel_roofit_sample.C ./channel_roofit.C
 #cp ../timeoffset_run.py ./run.py
 #. ../gen_elec_list.sh $Timeoffset_calib_source_path 
-#sed -e "s#DIR_ROOT#`pwd`/#g" channel_roofit_sample.C > channel_roofit.C
+###sed -e "s#DIR_ROOT#`pwd`/#g" channel_roofit_sample.C > channel_roofit.C
 #hep_sub ./TimeOffset.sh 
 #cd $tool_dir
 #
